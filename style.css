@@ -22,11 +22,10 @@ body {
     background-color: green;
   }
   .left, .right {
-    text-align: center;
-  }
-  .child {
     
+    width: 100%;
   }
+
 }
 
 .topbox {
