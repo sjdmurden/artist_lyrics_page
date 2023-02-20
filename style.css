@@ -26,15 +26,24 @@ body {
   }
 }
 
+@media (min-width: 801px) {
+  .title {
+    margin-left: 30%;
+  }
+  .topbox {
+    background: linear-gradient(90deg, rgba(128,0,32,1) 10%, rgba(0,0,0,1) 40%, rgba(128,0,32,1) 60%);  width: 100%;
+  }
+  .left, .right {
+    float: left;
+    width: 50%;
+  }
+}
 
 .topbox {
-  background: linear-gradient(90deg, rgba(128,0,32,1) 10%, rgba(0,0,0,1) 40%, rgba(128,0,32,1) 60%);  width: 100%;
   padding: 3rem 0;
   margin-bottom: 3rem;
 }
-.title {
-  margin-left: 30%;
-}
+
 
 .container{
   width: 60%;
@@ -57,18 +66,10 @@ body {
   font-weight: 500;
   line-height: 3;
 }
-.child: {
+.child {
   text-align: center;
 }
-.left {
-  float: left;
-  width: 50%;
 
-}
-.right {
-  float: left;
-  width: 50%;
-}
 
 
 .album {
