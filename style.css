@@ -17,7 +17,9 @@ body {
   .title {
     align-items: center;
   }
-
+  .topbox {
+    background: green;
+  }
 }
 
 .topbox {
