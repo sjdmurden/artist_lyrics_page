@@ -13,15 +13,19 @@ body {
 @media screen and (max-width: 800px) {
   .container {
     align-content: center;
+    max-width: 100%;
   }
   .title {
     align-items: center;
   }
   .topbox {
-    background: green;
+    background-color: green;
   }
   .left, .right {
     text-align: center;
+  }
+  .child {
+    
   }
 }
 
