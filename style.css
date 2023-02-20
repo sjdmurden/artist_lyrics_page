@@ -23,10 +23,7 @@ body {
 }
 
 .topbox {
-  /*
   background: linear-gradient(90deg, rgba(128,0,32,1) 10%, rgba(0,0,0,1) 40%, rgba(128,0,32,1) 60%);  width: 100%;
-  */
-  background: #790183;
   padding: 3rem 0;
   margin-bottom: 3rem;
 }
