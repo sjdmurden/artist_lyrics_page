@@ -9,23 +9,16 @@ body {
   width: 100%;
   margin: 0;
 }
-/*
-#nav {
-  overflow: hidden;
-  background: linear-gradient(90deg, rgba(128,0,32,1) 10%, rgba(0,0,0,1) 40%, rgba(128,0,32,1) 60%);
-  padding: 50px 10px;
-  transition: 0.4s;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1;
-  margin-bottom: 3rem;
+
+@media screen and (max-width: 800px) {
+  .container {
+    align-content: center;
+  }
+  .title {
+    align-items: center;
+  }
+
 }
-#nav #logo {
-  transition: 0.4s;
-  margin-left: 20%;
-}
-*/
 
 .topbox {
   background: linear-gradient(90deg, rgba(128,0,32,1) 10%, rgba(0,0,0,1) 40%, rgba(128,0,32,1) 60%);  width: 100%;
