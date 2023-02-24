@@ -16,7 +16,7 @@ body {
     max-width: 100%;
   }
   .title {
-    align-items: center;
+    align-content: center;
   }
   .topbox {
     background-color: green;
@@ -26,14 +26,19 @@ body {
   }
 }
 
-@media (min-width: 801px) {
+@media (min-width: 992px) {
   .title {
     margin-left: 30%;
   }
   .topbox {
     background: linear-gradient(90deg, rgba(128,0,32,1) 10%, rgba(0,0,0,1) 40%, rgba(128,0,32,1) 60%);  width: 100%;
   }
-  .left, .right {
+  .left {
+    float: left;
+    width: 50%;
+  
+  }
+  .right {
     float: left;
     width: 50%;
   }
@@ -66,9 +71,7 @@ body {
   font-weight: 500;
   line-height: 3;
 }
-.child {
-  text-align: center;
-}
+
 
 
 
