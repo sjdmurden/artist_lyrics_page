@@ -10,36 +10,60 @@ body {
   margin: 0;
 }
 
+/* MOBILE SCREEN SIZE */
 @media (max-device-width: 480px) {
   .container {
     width: 80%;
-    margin-left: 0;
+    margin-left: 2rem;
   }
+
   .title {
     margin-left: 10%;
   }
+
   .topbox {
     background-color: orange;
+    padding: 3rem 0;
+    margin-bottom: 3rem;
   }
+
   .left, .right { 
     width: 100%;
   }
+
   #photo_album_page {
     width: 18rem;
     height: 18rem;
     margin-bottom: 1.5rem;
   }
+
   .album {
-    margin-bottom: 2rem;
+    align-content: center;
+    margin-bottom: 4rem;
   }
+
+ 
 }
 
+
+
+
+/*DESKTOP SCREEN SIZE*/
 @media (min-width: 992px) {
+  .container{
+    width: 60%;
+    margin-left: 20%;
+  }
+
   .title {
     margin-left: 30%;
   }
+
   .topbox {
-    background: linear-gradient(90deg, rgba(128,0,32,1) 10%, rgba(0,0,0,1) 40%, rgba(128,0,32,1) 60%);  width: 100%;
+    background: linear-gradient(90deg, rgba(128,0,32,1) 10%, rgba(0,0,0,1) 40%, rgba(128,0,32,1) 60%);  
+    width: 100%;
+    padding: 3rem 0;
+    margin-bottom: 3rem;
   }
   .left {
     float: left;
@@ -50,18 +74,17 @@ body {
     float: left;
     width: 50%;
   }
+
+  .album {
+    align-content: center;
+    margin-bottom: 23rem;
+  }
 }
 
-.topbox {
-  padding: 3rem 0;
-  margin-bottom: 3rem;
-}
 
 
-.container{
-  width: 60%;
-  margin-left: 20%;
-}
+
+
 
 .release_date {
   font-family: 'Montserrat', sans-serif;
@@ -83,10 +106,7 @@ body {
 
 
 
-.album {
-  align-content: center;
-  margin-bottom: 23rem;
-}
+
 
 .contents {
   margin-left: 30%;
