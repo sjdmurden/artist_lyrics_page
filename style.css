@@ -2,6 +2,7 @@
 
 html {
   font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -42,7 +43,12 @@ body {
     margin-bottom: 4rem;
   }
 
- 
+  .album_title {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+  }
 }
 
 
@@ -79,6 +85,13 @@ body {
     align-content: center;
     margin-bottom: 23rem;
   }
+
+  .album_title {
+    font-size: 2.7rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
 }
 
 
@@ -91,12 +104,7 @@ body {
   font-weight: 500;
 }
 
-.album_title {
-  font-size: 2.7rem;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  margin-bottom: 2rem;
-}
+
 .album_songs {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
