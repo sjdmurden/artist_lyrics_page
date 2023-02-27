@@ -45,7 +45,7 @@ body {
   .left, .right { 
     width: 100%;
   }
-  
+
   .album {
     align-content: center;
     margin-bottom: 4rem;
@@ -59,8 +59,8 @@ body {
   }
 
   #photo_album_page {
-    width: 10rem;
-    height: 10rem;
+    width: 11rem;
+    height: 11rem;
     margin-bottom: 1.5rem;
   }
 
