@@ -45,13 +45,7 @@ body {
   .left, .right { 
     width: 100%;
   }
-
-  #photo_album_page {
-    width: 15rem;
-    height: 15rem;
-    margin-bottom: 1.5rem;
-  }
-
+  
   .album {
     align-content: center;
     margin-bottom: 4rem;
@@ -63,6 +57,14 @@ body {
     font-weight: 700;
     margin-bottom: 1rem;
   }
+
+  #photo_album_page {
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 1.5rem;
+  }
+
+  
 }
 
 
