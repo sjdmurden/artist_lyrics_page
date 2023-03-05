@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+html {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: white;
+    width: 100%;
+    margin: 0;
+}
+/* DESKTOP */
+@media (min-width: 992px) {
+    .topbox {
+        background: black;
+        width: 100%;
+        padding: 3rem 0;
+        margin-bottom: 3rem;
+    }
+    .title {
+        margin-left: 30%;
+    }
+    #discbutton {
+        float: left;
+        text-decoration: none;
+        color: white;
+        font-family: 'Montserrat';
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        margin: -3rem 0 0 8rem;
+        cursor: pointer;
+        text-align: center;
+        padding: 15px 0 15px 0;
+    }
+    #discbutton:hover {
+        border-color: black;
+        transition: 0.3s;
+        transition-timing-function: ease-out;
+    }
+
+    #embed {
+        float: right;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 3rem;
+        margin-right: 2.5rem;
+        margin-top: 2.5rem;
+        border-radius: 12px;
+        width: 30%;
+        height: 352px;
+        border: none;
+    }
+
+    .album_photo {
+        float: left;
+        margin-top: 0rem;
+        margin-right: 2.5rem;
+        background-color: #C8C8C8;
+        border-radius: 15px;
+        width: 18rem;
+    }
+
+    #photo  {
+        width: 18rem;
+        height: 18rem;
+        border-radius: 15px 15px 0 0;
+        margin-bottom: 0;
+    }
+
+    .song_links {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        line-height: 1.9;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+    }
+    #photo_name {
+        font-family: 'Montserrat';
+        font-weight: 500;
+        margin-bottom: 1.25rem;
+        margin-top: 0;
+        margin-left: -1rem;
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    #current_song {
+        font-family: 'Montserrat';
+        font-size: 16px;
+        line-height: 1.9;
+        border-bottom: 3px solid red;
+        margin-top: 0 ;
+        margin-bottom: 0 ;
+        display: inline;
+    }
+
+    .contents {
+        margin-left: 30%;
+    }
+
+    .song_name {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 2rem;
+        margin-top: 2.5rem;
+        color: black;
+    }
+
+    .song_lyrics {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        line-height: 1.9;
+        padding-top: 0.5rem;
+        color: black;
+    }
+}
+
+/* MOBILE SCREEN SIZE */
+@media (max-device-width: 480px) {
+
+    .topbox {
+        background: black;
+        width: 100%;
+        padding: 3rem 0;
+        margin-bottom: 3rem;
+    }
+    .title {
+        align-content: center;
+    }    
+
+    #embed {
+        align-content: center;
+        margin-top: 2.5rem;
+        border-radius: 12px;
+        width: 30%;
+        height: 152px;
+        border: none;
+    }
+
+    .album_photo {
+        align-content: center;
+        margin-top: 3rem;
+        background-color: #C8C8C8;
+        border-radius: 15px;
+        width: 18rem;
+    }
+
+
+
+
+}
