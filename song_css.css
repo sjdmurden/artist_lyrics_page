@@ -16,23 +16,28 @@ body {
     .topbox {
         background: black;
         width: 100%;
-        padding: 3rem 0;
         margin-bottom: 3rem;
+        float: right;
     }
     .title {
-        margin-left: 30%;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        padding-left: 30%;
+        background: linear-gradient(90deg, rgba(128,0,32,1) 10%, rgba(0,0,0,1) 40%, rgba(128,0,32,1) 60%);          
     }
     #discbutton {
+        float: top;
         float: left;
+        margin-top: 3.5rem;
+        margin-left: 7rem;
+        padding: 0.5rem;
         text-decoration: none;
         color: white;
         font-family: 'Montserrat';
         border-top: 1px solid;
         border-bottom: 1px solid;
-        margin: -3rem 0 0 8rem;
         cursor: pointer;
         text-align: center;
-        padding: 15px 0 15px 0;
     }
     #discbutton:hover {
         border-color: black;
@@ -55,8 +60,9 @@ body {
 
     .album_photo {
         float: left;
-        margin-top: 0rem;
+        margin-top: 2.5rem;
         margin-right: 2.5rem;
+        margin-left: 3rem;
         background-color: #C8C8C8;
         border-radius: 15px;
         width: 18rem;
