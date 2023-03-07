@@ -131,7 +131,10 @@ body {
         flex-direction: column;
     }
 
-
+    .contents {
+        order: 1;
+        margin-left: 10%;
+    }
 
     .topbox {
         background: black;
@@ -157,6 +160,7 @@ body {
     }
 
     .album_photo {
+        order: 2
         align-content: center;
         margin-top: 3rem;
         background-color: #C8C8C8;
