@@ -32,15 +32,18 @@ body {
     margin-left: 3rem;
   }
 
-  .title {
-    margin-left: 10%;
-  }
-
   .topbox {
-    background-color: darkgrey;
-    padding: 2.4rem 0;
+    background: black;
+    width: 100%;
     margin-bottom: 3rem;
+    float: right;
   }
+  .title {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 30%;
+    background: linear-gradient(90deg, rgba(128,0,32,1) 10%, rgba(0,0,0,1) 40%, rgba(128,0,32,1) 60%);          
+  }  
 
   .left, .right { 
     width: 100%;
