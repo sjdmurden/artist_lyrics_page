@@ -152,7 +152,7 @@ body {
     #discbutton {
         float: top;
         float: left;
-        margin-top: 3.5rem;
+        margin-top: 1.7rem;
         margin-left: 2rem;
         padding: 0.5rem;
         text-decoration: none;
@@ -167,9 +167,9 @@ body {
     .embed_wrap {
         display: flex;
         justify-content: center;
+        order: 1;
     }
     #embed {
-        order: 1;
         display:inline-block;
         margin-top: 2.5rem;
         border-radius: 12px;
@@ -181,9 +181,9 @@ body {
     .song_links_wrap {
         display: flex;
         justify-content: center;
+        order: 3;
     }
     .album_photo {
-        order: 3;
         display:inline-block;
         margin-top: 0.5rem;
         margin-bottom: 10rem;
