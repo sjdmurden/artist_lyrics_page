@@ -153,6 +153,7 @@ body {
         float: top;
         float: left;
         margin-top: 3.5rem;
+        margin-left: 2rem;
         padding: 0.5rem;
         text-decoration: none;
         color: white;
@@ -163,6 +164,10 @@ body {
         text-align: center;
     }
 
+    .embed_wrap {
+        display: flex;
+        justify-content: center;
+    }
     #embed {
         order: 1;
         display:inline-block;
@@ -173,10 +178,14 @@ body {
         border: none;
     }
 
+    .song_links_wrap {
+        display: flex;
+        justify-content: center;
+    }
     .album_photo {
         order: 3;
         display:inline-block;
-        margin-top: 3rem;
+        margin-top: 0.5rem;
         margin-bottom: 10rem;
         background-color: #C8C8C8;
         border-radius: 15px;
