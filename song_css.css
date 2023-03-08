@@ -126,14 +126,14 @@ body {
 /* MOBILE SCREEN SIZE */
 @media (max-device-width: 480px) {
 
-    .body {
+    body {
         display: flex;
         flex-direction: column;
     }
 
     .contents {
         order: 2;
-        margin-left: 10%;
+        vertical-align: middle;
     }
 
     .topbox {
@@ -165,7 +165,7 @@ body {
 
     #embed {
         order: 1;
-        align-content: center;
+        vertical-align: middle;
         margin-top: 2.5rem;
         border-radius: 12px;
         width: 80%;
@@ -228,7 +228,7 @@ body {
     .song_lyrics {
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
-        line-height: 1.9;
+        line-height: 2.2;
         padding-top: 0.5rem;
         color: black;
     }
