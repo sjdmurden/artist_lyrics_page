@@ -134,7 +134,7 @@ body {
     .contents {
         order: 2;
         text-align: center;
-        margin-bottom: 5rem;
+        margin-bottom: 3rem;
     }
 
     .topbox {
@@ -153,8 +153,8 @@ body {
     #discbutton {
         float: top;
         float: left;
-        margin-top: 2rem;
-        margin-left: 2rem;
+        margin-top: 2.2rem;
+        margin-left: 1.6rem;
         padding: 0.5rem;
         text-decoration: none;
         color: white;
