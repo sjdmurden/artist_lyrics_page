@@ -132,7 +132,7 @@ body {
     }
 
     .contents {
-        order: 1;
+        order: 2;
         margin-left: 10%;
     }
 
@@ -164,7 +164,7 @@ body {
     }
 
     #embed {
-        order: -1;
+        order: 1;
         align-content: center;
         margin-top: 2.5rem;
         border-radius: 12px;
@@ -174,8 +174,8 @@ body {
     }
 
     .album_photo {
-        order: 2;
-        align: center;
+        order: 3;
+        vertical-align: middle;
         margin-top: 3rem;
         background-color: #C8C8C8;
         border-radius: 15px;
@@ -233,7 +233,10 @@ body {
         color: black;
     }
 
-    
+    p {
+        margin-top: 2.5em ;
+        margin-bottom: 2.5em ;
+      }
 
 
 
