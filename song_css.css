@@ -149,6 +149,20 @@ body {
         background: linear-gradient(90deg, rgba(128,0,32,1) 10%, rgba(0,0,0,1) 40%, rgba(128,0,32,1) 60%);          
     }  
 
+    #discbutton {
+        float: top;
+        float: left;
+        margin-top: 3.5rem;
+        padding: 0.5rem;
+        text-decoration: none;
+        color: white;
+        font-family: 'Montserrat';
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        cursor: pointer;
+        text-align: center;
+    }
+
     #embed {
         order: -1;
         align-content: center;
@@ -168,6 +182,41 @@ body {
         width: 18rem;
     }
 
+    #photo  {
+        width: 18rem;
+        height: 18rem;
+        border-radius: 15px 15px 0 0;
+        margin-bottom: 0;
+    }
+
+    .song_links {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        line-height: 1.9;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    #photo_name {
+        font-family: 'Montserrat';
+        font-weight: 500;
+        margin-bottom: 1.25rem;
+        margin-top: 0;
+        margin-left: -1rem;
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    #current_song {
+        font-family: 'Montserrat';
+        font-size: 16px;
+        line-height: 1.9;
+        border-bottom: 3px solid red;
+        margin-top: 0 ;
+        margin-bottom: 0 ;
+        display: inline;
+    }
+
     .song_name {
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
@@ -183,6 +232,8 @@ body {
         padding-top: 0.5rem;
         color: black;
     }
+
+    
 
 
 
