@@ -133,7 +133,8 @@ body {
 
     .contents {
         order: 2;
-        vertical-align: middle;
+        align-items: center;
+        justify-content: center;
     }
 
     .topbox {
@@ -165,7 +166,8 @@ body {
 
     #embed {
         order: 1;
-        vertical-align: middle;
+        align-items: center;
+        justify-content: center;
         margin-top: 2.5rem;
         border-radius: 12px;
         width: 80%;
@@ -175,8 +177,10 @@ body {
 
     .album_photo {
         order: 3;
-        vertical-align: middle;
+        align-items: center;
+        justify-content: center;
         margin-top: 3rem;
+        margin-bottom: 10rem;
         background-color: #C8C8C8;
         border-radius: 15px;
         width: 18rem;
@@ -231,6 +235,7 @@ body {
         line-height: 2.2;
         padding-top: 0.5rem;
         color: black;
+        margin-bottom: 0;
     }
 
     p {
