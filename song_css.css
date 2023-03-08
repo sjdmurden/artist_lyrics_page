@@ -165,6 +165,7 @@ body {
 
     #embed {
         order: 1;
+        display:inline-block;
         margin-top: 2.5rem;
         border-radius: 12px;
         width: 80%;
@@ -174,6 +175,7 @@ body {
 
     .album_photo {
         order: 3;
+        display:inline-block;
         margin-top: 3rem;
         margin-bottom: 10rem;
         background-color: #C8C8C8;
