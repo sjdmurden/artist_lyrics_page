@@ -54,7 +54,8 @@ body {
         margin-top: 2.5rem;
     }
     #embed {
-       
+        margin-right: 2.5rem;
+        margin-top: 2.5rem;
         border-radius: 12px;
         width: 30%;
         height: 352px;
