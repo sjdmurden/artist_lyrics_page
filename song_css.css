@@ -44,7 +44,19 @@ body {
         transition: 0.3s;
         transition-timing-function: ease-out;
     }
-    
+    .embed_wrap {
+        float: right;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 3rem;
+        margin-right: 2.5rem;
+        margin-top: 2.5rem;
+        border-radius: 12px;
+        width: 30%;
+        height: 352px;
+        border: none;
+    }
+    /*
     #embed {
         float: right;
         position: -webkit-sticky;
@@ -57,6 +69,7 @@ body {
         height: 352px;
         border: none;
     }
+    */
 
     .album_photo {
         float: left;
