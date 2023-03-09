@@ -45,11 +45,13 @@ body {
         transition-timing-function: ease-out;
     }
 
-    #embed {
+    .embed_wrap {
         float: right;
         position: -webkit-sticky;
         position: sticky;
         top: 3rem;
+    }
+    #embed {
         margin-right: 2.5rem;
         margin-top: 2.5rem;
         border-radius: 12px;
