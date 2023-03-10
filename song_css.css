@@ -44,20 +44,18 @@ body {
         transition: 0.3s;
         transition-timing-function: ease-out;
     }
-    /*
+    
     .embed_wrap {
         position: -webkit-sticky;
         position: sticky;
         top: 3rem;
         
     }
-    */
+    
     #embed {
         float: right;
         
-        position: -webkit-sticky;
-        position: sticky;
-        top: 2.5rem;
+        
         
         margin-right: 2.5rem;
         margin-top: 2.5rem;
