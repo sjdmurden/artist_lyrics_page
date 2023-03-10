@@ -56,7 +56,7 @@ body {
         height: 352px;
         border: none;
     }
-    
+    /*
     #embed {
         float: right;
         position: -webkit-sticky;
@@ -69,7 +69,7 @@ body {
         height: 352px;
         border: none;
     }
-    
+    */
 
     .album_photo {
         float: left;
