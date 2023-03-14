@@ -98,6 +98,7 @@ body {
         margin-left: -1rem;
         font-size: 1.25rem;
         text-align: center;
+        padding: 0.5rem;
     }
 
     #current_song {
