@@ -244,12 +244,11 @@ button .fa-solid {
   }
 
   .title {
-    margin-left: 22%;
+    margin-left: 30%;
   }
 
   .topbox {
-    background: linear-gradient(90deg, rgba(128,0,32,1) 10%, rgba(0,0,0,1) 30%, rgba(128,0,32,1) 60%);  
-    color: white;
+    background: linear-gradient(90deg, rgba(128,0,32,1) 10%, rgba(0,0,0,1) 40%, rgba(128,0,32,1) 60%);  
     width: 100%;
     padding-top: 2rem;
     padding-bottom: 1rem;
@@ -336,26 +335,6 @@ button .fa-solid {
   /* CSS FOR THE IDs */
 
 
-  #discbutton {
-    float: left;
-    text-decoration: none;
-    color: white;
-    font-family: 'Montserrat';
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    margin: -3rem 0 0 8rem;
-    cursor: pointer;
-    text-align: center;
-    padding: 15px 0 15px 0;
-  }
-  #discbutton:hover {
-    border-color: black;
-    transition: 0.3s;
-    transition-timing-function: ease-out;
-  }
-
-  #discbutton:active {
-  }
 
   #button1 {
     font-family: 'Montserrat';

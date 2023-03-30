@@ -13,22 +13,22 @@ body {
 }
 /* DESKTOP */
 @media (min-width: 992px) {
-    .topbox {
-        background: black;
-        width: 100%;
-        margin-bottom: 3rem;
-        float: right;
-    }
     .title {
-        padding-top: 3rem;
-        padding-bottom: 3rem;
-        padding-left: 30%;
-        background: linear-gradient(90deg, rgba(128,0,32,1) 10%, rgba(0,0,0,1) 40%, rgba(128,0,32,1) 60%);          
+        margin-left: 30%;
     }
+
+  .topbox {
+        background: linear-gradient(90deg, rgba(128,0,32,1) 10%, rgba(0,0,0,1) 40%, rgba(128,0,32,1) 60%);  
+        width: 100%;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        margin-bottom: 2rem;
+        height: 4rem;
+     }
     #discbutton {
         float: top;
         float: left;
-        margin-top: 3.5rem;
+        margin-top: 0.8rem;
         margin-left: 7rem;
         padding: 0.5rem;
         text-decoration: none;

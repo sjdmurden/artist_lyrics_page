@@ -1,35 +1,4 @@
 
-/*
-const songs = [
-  { name: "Soldiers of Rock", url: "1_soldiers.html" },
-  { name: "Dead From the Waist Down", url: "1_dftwd.html" },
-  { name: "No Lies", url: "1_no_lies.html" },
-  { name: "Massacre", url: "1_massacre.html" },
-  { name: "Going Away", url: "1_going_away.html" },
-  { name: "Weapon", url: "1_weapon.html" },
-];
-
-const inputBox = document.getElementById("input-box");
-const resultsBox = document.querySelector(".result-box");
-
-inputBox.addEventListener("keyup", () => {
-  const inputValue = inputBox.value.toLowerCase().trim();
-  const filteredSongs = songs.filter((song) =>
-    song.name.toLowerCase().includes(inputValue)
-  );
-  const content = filteredSongs.map(
-    (song) =>
-      `<li><a href="${song.url}">${song.name}</a></li>`
-  );
-  resultsBox.innerHTML = `<ul>${content.join("")}</ul>`;
-});
-*/
-
-
-
-
-
-// WORKING CHATGPT CODE!!!!!!
 var dict ={
   'Soldiers of Rock' : '1_soldiers.html',
   'Dead From the Waist Down' : '1_dftwd.html',
@@ -41,6 +10,42 @@ var dict ={
   'Frustration' : '1_frustration.html',
   'Hold Me Down' : '1_hmd.html',
   'Revealing' : '1_revealing.html',
+  'Langundo' : '2_langundo.html',
+  'Make You Pay' : '2_myp.html',
+  'Rivers' : '2_rivers.html',
+  'Holy City' : '2_holycity.html',
+  'Peacemaker' : '2_peacemaker.html',
+  'The Wire' : '2_thewire.html',
+  'Fortune Favours the Brave' : '2_fftb.html',
+  'The Prince' : '2_theprince.html',
+  'Precious Stone' : '2_ps.html',
+  'In the Zone' : '2_itz.html',
+  "Let's Get Rocked" : '2_lgr.html',
+  'More or Less' : '2_mol.html',
+  'Prologue' : '3_prologue.html',
+  'Between the Eyes' : '3_bte.html',
+  'Iron Cross' : '3_ironcross.html',
+  'Otherside' : '3_otherside.html',
+  'Take It Or Leave It' : '3_tioli.html',
+  'Peace of Mind' : '3_pom.html',
+  'Bring the Rain' : '3_btr.html',
+  'Fading Before the Sun' : '3_fbts.html',
+  'Two Worlds' : '3_twoworlds.html',
+  'Believe' : '3_believe.html',
+  'Aching Hearts' : '3_achinghearts.html',
+  'New Dawn' : '3_newdawn.html',
+  'Green Eyes' : '4_greeneyes.html',
+  'Wake Up' : '4_wakeup.html',
+  'One Track Mind' : '4_otm.html',
+  'How Many Times' : '4_hmt.html',
+  'Fight the Fire' : '4_ftf.html',
+  'On the Run' : '4_otr.html',
+  'Circles' : '4_circles.html',
+  'Fade Out' : '4_fadeout.html',
+  "I'm Not the Only One" : '4_intoo.html',
+  'Deadliest Sin' : '4_deadliest.html',
+  "I Didn't Know" : '4_idk.html',
+  'The Cure' : '4_thecure.html',
 }
 
 const resultsBox = document.querySelector(".result-box");
@@ -80,7 +85,7 @@ function selectInput(list){
 
 
 
-/* MY CODE
+/* PREVIOUS CODE
 let availableKeywords = [
   'Soldiers of Rock',
   'Dead From the Waist Down',
