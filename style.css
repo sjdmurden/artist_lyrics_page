@@ -23,10 +23,77 @@ body {
   line-height: 3;
 }
 
+.search-box {
+  float: right;
+  margin-right: 10%;
+  margin-bottom: 2rem;
+  width: 400px;
+  background: rgb(206, 206, 204);
+  border-radius: 5px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+input {
+  flex: 1;
+  height: 50px;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  color: #333;
+}
+#input-box{
+  font-family: 'Montserrat';
+  font-size: 16px;
+}
+button {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+button .fa-solid {
+  color: #555;
+  font-size: 20px;
+}
+::placeholder {
+  color: #555;
+  font-family: 'Montserrat';
+  font-size: 16px;
+}
+.result-box ul{
+  border-top: 1px solid #999;
+  padding: 15px 10px;
+}
+.result-box ul li{
+  list-style: none;
+  border-radius: 3px;
+  padding: 15px 10px;
+  cursor: pointer;
+}
+.result-box ul li:hover{
+  background: #e9f3ff;
+}
+.result-box{
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+
+
+
 
 
 /* MOBILE SCREEN SIZE */
 @media (max-device-width: 480px) {
+
+  .search-box {
+    float:left;
+    margin-left: 20%;
+  }
+
   .container {
     width: 80%;
     margin-left: 3rem;
@@ -108,6 +175,7 @@ body {
     padding-left: 1rem;
     padding-bottom: 1rem;
   }
+ 
   
   #discbutton {
     float: left;
@@ -176,14 +244,18 @@ body {
   }
 
   .title {
-    margin-left: 30%;
+    margin-left: 22%;
   }
 
   .topbox {
-    background: linear-gradient(90deg, rgba(128,0,32,1) 10%, rgba(0,0,0,1) 40%, rgba(128,0,32,1) 60%);  
+    background: linear-gradient(90deg, rgba(128,0,32,1) 10%, rgba(0,0,0,1) 30%, rgba(128,0,32,1) 60%);  
+    color: white;
     width: 100%;
-    padding: 3rem 0;
-    margin-bottom: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    height: 4rem;
   }
   .left {
     float: left;
