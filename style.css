@@ -90,6 +90,7 @@ button .fa-solid {
 @media (max-device-width: 480px) {
 
   .search-box {
+    width: 80%;
     float:left;
     margin-left: 20%;
   }
